@@ -1,3 +1,11 @@
 {
-    "welcome_message": "Hello from Dockerized Flask App"
+    "colorsArray":[{
+            "colorName":"red",
+            "hexValue":"#f00"
+        },
+        {
+            "colorName":"green",
+            "hexValue":"#0f0"
+        }
+    ]
 }
