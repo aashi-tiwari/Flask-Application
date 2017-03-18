@@ -3,5 +3,6 @@ MAINTAINER Your Name "aashi3358@gmail.com"
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
-ENTRYPOINT ["python"]
-CMD ["app.py"]
+RUN pip install -r github.txt
+ENTRYPOINT ["python","app.py"]
+CMD [$1]
